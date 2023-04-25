@@ -136,6 +136,10 @@ nvparsers.lib
 
 使用:
 
+解压`inference\yolov8-trt\yolov8-trt\models\yolov8n_b4.zip`到当前文件夹得到编译好的TRT engine`yolov8n_b4.bin`。 </br>
+***提示:*** </br>
+不同型号的GPU需要重新编译。
+
 修改这个部分:
 ``` c++
 cudaSetDevice(0);  // GPU ID
