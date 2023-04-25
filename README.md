@@ -84,12 +84,6 @@ You can infer images with the engine by [`infer-det.py`](infer-det.py) .
 
 Usage:
 
-Unzip the `inference\yolov8-trt\yolov8-trt\models\yolov8n_b4.zip` file to the current directory to obtain the compiled TRT engine yolov8n_b4.bin.
-
-Note:
-
-Different GPU devices require recompilation.
-
 ``` shell
 python3 infer-det.py \
 --engine yolov8n.bin \
@@ -140,6 +134,12 @@ nvparsers.lib
 
 
 Usage:
+
+Unzip the `inference\yolov8-trt\yolov8-trt\models\yolov8n_b4.zip` file to the current directory to obtain the compiled TRT engine yolov8n_b4.bin.
+
+Note:
+
+Different GPU devices require recompilation.
 
 Modify this part:
 ``` c++
