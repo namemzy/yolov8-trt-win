@@ -164,7 +164,17 @@ Compile and run `main.cpp`.
 | yolov8n   | 640x640x3 | 1     | FP32   | C++    | GTX 1060 | 5.3    |  
 | yolov8n   | 640x640x3 | 4     | FP32   | C++    | GTX 1060 | 4.35   |  
 | yolov8l   | 640x640x3 | 1     | FP32   | C++    | GTX 1060 | 41    |  
-| yolov8l   | 640x640x3 | 4     |FP32   | C++    | GTX 1060 | 38.25 |  
+| yolov8l   | 640x640x3 | 4     | FP32   | C++    | GTX 1060 | 38.25 | 
+| yolov8m   | 1024x1024x3 | 4     | FP32   | C++    | GTX 1060 | 52.46 |
+| yolov8m   | 1024x1024x3 | 4     | FP16   | C++    | GTX 1060 | 51.05 |
+| yolov8m   | 1024x1024x3 | 4     | INT8   | C++    | GTX 1060 | 23.23 |
+| yolov8m   | 1024x1024x3 | 4     | FP32   | C++    | GTX 3070 | **19.625** |
+| yolov8m   | 1024x1024x3 | 4     | FP16   | C++    | GTX 3070 | **6.095** |
+| yolov8m   | 1024x1024x3 | 4     | INT8   | C++    | GTX 3070 | **3.1** |
+| yolov8m   | 1024x1024x3 | 4     | FP32   | C++    | GTX 4070 | **12.27** |
+| yolov8m   | 1024x1024x3 | 4     | FP16   | C++    | GTX 4070 | **4.49** |
+| yolov8m   | 1024x1024x3 | 4     | INT8   | C++    | GTX 4070 | **2.74** |
+
 
 ***NOTICE:*** </br>
 Limited by its GPU model, the GTX 1060 has poor performance in terms of inference speed, and it does not support FP16 precision. Using 30-series GPUs can significantly improve performance.  
