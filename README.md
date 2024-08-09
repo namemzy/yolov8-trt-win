@@ -177,7 +177,7 @@ Compile and run `main.cpp`.
 
 
 ***NOTICE:*** </br>
-Limited by its GPU model, the GTX 1060 has poor performance in terms of inference speed, and it does not support FP16 precision. Using 30-series GPUs can significantly improve performance.  
+Limited by its GPU model, the GTX 1060 has poor performance in terms of inference speed, and it does not fully support FP16 precision and FP16 Tensor. Using 30-series or 40-series GPUs can significantly improve performance.  
 
 
 # Acknowledgments
